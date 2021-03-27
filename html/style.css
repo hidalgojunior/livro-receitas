@@ -1,11 +1,14 @@
 body {
-    background-color: #ccc;
+    background-color: ##a4a4a4;
+    font-family: verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 #title,
 .subtitle,
 .post_title {
-    color: blue;
+    color: #a4a4a4;
 }
 
 .post_title {
@@ -13,9 +16,15 @@ body {
     font-style: italic;
     margin: 0;
     margin-bottom: 10px;
+    color: #a4a4a4
+}
+
+#title {
+    color: #a4a4a4;
 }
 
 .post {
+    color: #a4a4a4;
     background-color: white;
     padding: 10px;
     border: 3px solid #000;
@@ -24,15 +33,28 @@ body {
 }
 
 .post-content {
+    text-align: justify;
     margin: 0;
     margin-bottom: 15px;
 }
 
 .post-image {
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .photo {
     border: 1px solid #fff;
     border-radius: 580px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 15px;
 }
